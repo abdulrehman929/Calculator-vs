@@ -9,8 +9,11 @@ arr.forEach(button =>{
             String= eval(String);
             input.value = String;
         }
-        String += e.target.innerHTML;
-        input.value= String;
+        else
+        String += e.target.innerHTML== "AC";
+        input.value= String="";
+
+
         
     })
 })
