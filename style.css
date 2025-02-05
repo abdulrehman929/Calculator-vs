@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0 ;
+    padding: 0%;
+}
+body{
+    display: flex;
+    background-color: black;
+    height: 100vh ;
+   justify-content: center;
+   align-items: center
+
+}
+h1{
+    margin-left: 25px;
+}
+
+.main{
+margin: 20px;
+padding: 20px;
+
+
+
+}
+
+input{
+    
+    width: 80%;
+  
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    text-align: right;
+    color: grey;
+    font-size: x-large;
+    
+
+}
+.Hero{
+    padding: 20px;
+    padding-top: 30px
+
+}
+.row1, .row2, .row3, .row4{
+    margin-top: 6px;
+
+}
+button{
+    padding: 10px;
+    margin: 3px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 17px;
+    font-family: "Poppins", serif;
+    cursor: pointer;
+    
+}
+button:hover{
+    box-shadow: 0 0 5px white ;
+    font-weight: 600;
+    
+}
